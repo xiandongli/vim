@@ -4,11 +4,16 @@ set ruler
 " 自动缩进
 set autoindent
 " Tab键的宽度
-set tabstop=4
-" 统一缩进为4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=8
+" 统一缩进为8
+set shiftwidth=8
+set softtabstop=8
 " 空格代替制表符
 set expandtab
 inoremap ( ()<LEFT>
-inoremap { {}<LEFT><CR><TAB><CR><BACKSPACE><UP><RIGHT><RIGHT><RIGHT><RIGHT>
+" inoremap < <><LEFT>
+inoremap [ []<LEFT>
+inoremap " ""<LEFT>
+inoremap ' ''<LEFT>
+inoremap { {}<LEFT><CR><TAB><CR><BACKSPACE><UP><RIGHT><RIGHT><RIGHT><RIGHT><RIGHT><RIGHT><RIGHT><RIGHT>
+
